@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@reactivex/rxjs@^6.2.2":
+  version "6.2.2"
+  resolved "http://registry.npm.taobao.org/@reactivex/rxjs/download/@reactivex/rxjs-6.2.2.tgz#dccd387b8c561494f1310ceb10175d382e4c18ec"
+  dependencies:
+    tslib "^1.9.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -5016,6 +5022,16 @@ rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "http://registry.npm.taobao.org/rx-lite/download/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
+rxjs-compat@^6.2.2:
+  version "6.2.2"
+  resolved "http://registry.npm.taobao.org/rxjs-compat/download/rxjs-compat-6.2.2.tgz#3c0fcdb46130cc70aa55412c2b1147905ab4680a"
+
+rxjs@^6.2.2:
+  version "6.2.2"
+  resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-6.2.2.tgz#eb75fa3c186ff5289907d06483a77884586e1cf9"
+  dependencies:
+    tslib "^1.9.0"
+
 safe-buffer@5.1.1:
   version "5.1.1"
   resolved "http://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
@@ -5601,6 +5617,10 @@ ts-loader@^3.5.0:
     micromatch "^3.1.4"
     semver "^5.0.1"
 
+tslib@^1.9.0:
+  version "1.9.3"
+  resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "http://registry.npm.taobao.org/tty-browserify/download/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -5850,6 +5870,10 @@ vue-loader@^13.3.0:
 vue-router@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/vue-router/download/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"
+
+vue-rx@^6.0.1:
+  version "6.0.1"
+  resolved "http://registry.npm.taobao.org/vue-rx/download/vue-rx-6.0.1.tgz#4e4e9234339cbfa4e1968d67595cfe00293c6edc"
 
 vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
   version "3.1.2"
